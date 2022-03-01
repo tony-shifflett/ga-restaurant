@@ -1,0 +1,21 @@
+.navbar{
+    background-color: transparent;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    padding-right: 20px;
+}
+
+.nav-menu-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-menu-items li {
+    padding-left: 20px;
+}
