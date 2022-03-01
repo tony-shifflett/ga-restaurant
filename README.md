@@ -15,4 +15,7 @@ Post MVP goals are deployment and a mobile friendly version of the website.
 ## Tools
 I created the website using create-react-app. 
 
+## Assets 
+Assets were provided as part of the challenge. 
+
 
