@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar'
 import AboutTopText from '../components/AboutTopText'
 import '../styles/About.css'
 import AboutText from '../components/AboutText'
+import FeaturesText from '../components/FeaturesText'
 
 
 const About = () => {
@@ -10,6 +11,7 @@ const About = () => {
     <div id="about-page">
         <AboutTopText/>
         <AboutText/>
+        <FeaturesText/>
         {/* <Navbar/> */}
     </div>
   )
