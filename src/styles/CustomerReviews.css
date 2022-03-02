@@ -1,7 +1,7 @@
 #customer-review-body {
     display: flex;
     flex-direction: row;
-    align-content: space-between;
+    justify-content: space-around;
 }
 
 
@@ -9,16 +9,15 @@
     display: flex;
     flex-direction: row;
     border-left: 3px solid black;
+    margin-top: 10vh; 
+    background-color: white;
+    max-width: 40vw;
+    height: auto;
 }
+
 
 .review-card img {
     margin-left: 10px;
-}
-
-.review-card:first-of-type {
-    margin-left: 50px;
-}
-
-.review-card:nth-last-of-type(2) {
-    padding-right: 10%;
+    height: auto;
+    width: auto;
 }

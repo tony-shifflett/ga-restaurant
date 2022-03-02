@@ -1,4 +1,6 @@
-#reviews{
+#reviews {
     background-color: rgb(239, 237, 237);
-    height: 33vh;
+    height: 66vh;
+    margin-top: 33vh;
+    padding-top: 15vh;
 }
