@@ -9,13 +9,13 @@ const ImageGallery = () => {
   return (
     <div id="image-gallery">
         <section id ="large-images">
-            <img src={tacos}/>
-            <img src={panini}/>
+            <img src={tacos} alt="tacos"/>
+            <img src={panini} alt="panini"/>
         </section>
         <section id="small-images">
-            <img src={sandwich}/>
-            <img src={donuts}/>
-            <img src={pizza}/>
+            <img src={sandwich} alt="sandwich"/>
+            <img src={donuts} alt="donuts"/>
+            <img src={pizza} alt="pizza"/>
         </section>
     </div>
   )

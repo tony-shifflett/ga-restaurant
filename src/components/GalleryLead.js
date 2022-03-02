@@ -5,7 +5,7 @@ import leadImg from '../assets/images/unsplash_P1aohbiT-EY.jpg'
 const GalleryLead = () => {
   return (
     <section id="lead-gallery-image">
-        <img src={leadImg}/>
+        <img src={leadImg} alt="pancakes"/>
     </section>
   )
 }
