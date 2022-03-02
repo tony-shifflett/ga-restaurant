@@ -11,7 +11,7 @@
     border-left: 3px solid black;
     margin-top: 10vh; 
     background-color: white;
-    max-width: 33vw;
+    max-width: 40vw;
     height: auto;
 }
 
@@ -21,8 +21,3 @@
     height: auto;
     width: auto;
 }
-
-
-/* .review-card:nth-last-of-type(2) {
-    padding-right: 10%;
-} */
