@@ -1,0 +1,24 @@
+#customer-review-body {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+
+.review-card {
+    display: flex;
+    flex-direction: row;
+    border-left: 3px solid black;
+}
+
+.review-card img {
+    margin-left: 10px;
+}
+
+.review-card:first-of-type {
+    margin-left: 50px;
+}
+
+.review-card:nth-last-of-type(2) {
+    padding-right: 10%;
+}

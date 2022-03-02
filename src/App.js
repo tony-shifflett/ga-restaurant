@@ -3,6 +3,7 @@ import {Routes, Route} from 'react-router-dom';
 import Landing from './pages/Landing';
 import About from './pages/About';
 import Gallery from './pages/Gallery';
+import Testimonial from './pages/Testimonial';
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
         <Route exact path="/" element={<Landing/>}/>
         <Route exact path="/about" element={<About/>}/>
         <Route exact path="/gallery" element ={<Gallery/>}/>
-        <Route exact path="testimonial"/>
+        <Route exact path="testimonial" element={<Testimonial/>}/>
       </Routes>
     </div>
   );
