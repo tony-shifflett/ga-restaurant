@@ -1,0 +1,16 @@
+#image-gallery {
+    padding-top: 10%;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+}
+
+#large-images img {
+    column-span: 3;
+}
+
+#small-images img {
+    column-span: 2;
+    
+}

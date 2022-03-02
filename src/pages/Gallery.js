@@ -1,11 +1,20 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import leadImg from '../assets/images/unsplash_P1aohbiT-EY.jpg'
+import ImageGallery from '../components/ImageGallery'
+import GalleryLead from '../components/GalleryLead'
+import GalleryText from '../components/GalleryText'
+import '../styles/Gallery.css'
 
 const Gallery = () => {
   return (
-    <>
-        <Navbar/>
-    </>
+    <div id="gallery">
+        <GalleryLead/>
+        <section id="gallery-body">
+          <GalleryText/>
+          <ImageGallery/>
+        </section>
+    </div>
   )
 }
 
