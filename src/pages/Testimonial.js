@@ -1,5 +1,6 @@
 import React from 'react'
 import CustomerReviews from '../components/CustomerReviews'
+import '../styles/Testimonial.css'
 
 
 const Testimonial = () => {

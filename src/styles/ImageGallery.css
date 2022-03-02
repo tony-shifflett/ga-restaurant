@@ -1,9 +1,5 @@
 #image-gallery {
     padding-top: 10%;
-    /* display: grid;
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-columns: repeat(6, 1fr);
-    gap: 10px; */
     display: flex; 
     flex-direction: row;
     flex-wrap: wrap;
@@ -11,13 +7,18 @@
     padding-top: 0%;
 }
 
+#small-images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3px;
+}
 
 #large-images img {
     height: 100%;
-    width: 50%;
+    max-width: 50%;
 }
 
 #small-images img {
-    height: 100%;
-    width: 33%;
+    max-height: 100%;
+    max-width: 33%;
 }
