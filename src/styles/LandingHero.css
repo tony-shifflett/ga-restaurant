@@ -1,0 +1,17 @@
+#landing-hero{
+    color: white;
+    font-size: 30px;
+    padding-top: 27%;
+}
+
+.landing-big-text{
+    font-size: 50px;
+}
+
+#landing-hero button {
+    background-color: transparent;
+    color: rgb(129, 180, 61);
+    font-size: 20px;
+}
+
+
