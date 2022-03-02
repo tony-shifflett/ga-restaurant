@@ -1,6 +1,4 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
-import leadImg from '../assets/images/unsplash_P1aohbiT-EY.jpg'
 import ImageGallery from '../components/ImageGallery'
 import GalleryLead from '../components/GalleryLead'
 import GalleryText from '../components/GalleryText'

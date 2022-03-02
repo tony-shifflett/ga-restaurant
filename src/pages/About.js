@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
 import AboutTopText from '../components/AboutTopText'
 import '../styles/About.css'
 import AboutText from '../components/AboutText'
