@@ -1,20 +1,26 @@
 #gallery-text{
-    height: 90px;
+    height: 15%;
+    width: 100%;
 }
 
-#gallery-title{
-    font-size: 20px;
+ #gallery-title{
+    font-size: 1em;
 }
 
-#gallery-text-body {
-    font-size: 20px;
+ #gallery-text-body {
+    font-size: 1.25em;
+}
+
+#gallery-text-body p {
+    margin: 0 0 20px 0;
 }
 
 #gallery-text-body p:first-of-type {
-    font-size: 40px;
+    font-size: 2em;
     font-weight: 400;
+    margin-top: 0;
 }
 
 #gallery-text-body p:nth-of-type(3){
     font-weight: bold;
-}
+}  

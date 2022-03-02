@@ -1,4 +1,5 @@
 import React from 'react'
+import '../styles/ImageGallery.css'
 import tacos from '../assets/images/unsplash_lP5MCM6nZ5A.jpg'
 import panini from '../assets/images/unsplash_SqYmTDQYMjo.jpg'
 import sandwich from '../assets/images/unsplash_mAQZ3X_8_l0.jpg'

@@ -12,8 +12,6 @@ const GalleryText = () => {
                 cras ac accumsan id quam. Cursus.</p>
             <p>CHECK  NOW</p>
         </section>
-
-
     </div>
   )
 }
