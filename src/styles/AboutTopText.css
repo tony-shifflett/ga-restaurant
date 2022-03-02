@@ -1,0 +1,7 @@
+#about-top-text {
+    font-size: 40px;
+    font-weight: bolder;
+    grid-column: 2/5;
+    padding-top: 10%;
+    padding-right: 100px;
+}
