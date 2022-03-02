@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
       <div className='navbar'>
         <ul className='nav-list'>
-            <div className='nav-logo'>
+            <div id='nav-logo'>
                 <li>Restaurant</li>
             </div>
             <div className='nav-menu-items'>
@@ -13,7 +13,7 @@ const Navbar = () => {
             <li>Gallery</li>
             <li>Testimonial</li>
             <li>1800-123-4567</li>
-            <li>RESERVATION</li>
+            <li><button type="button">RESERVATION</button></li>
             </div>
         </ul>
       </div>
