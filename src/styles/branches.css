@@ -36,8 +36,10 @@
     color: black;
     list-style: none;
     font-size: 1.5em;
-    height: 2em;
-    align-content: center;
+    height: 3em;
+    text-align: center;
+    display: flex;
+    align-items: center;
 }
 
 #locations li:last-of-type {

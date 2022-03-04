@@ -22,9 +22,9 @@ const Branches = () => {
 
         if(!firstClick){
             if (highlightedElement == 0){
-                document.getElementById('4').style.backgroundColor='transparent'
+                document.getElementById('4').style.backgroundColor='white'
             } else {
-                document.getElementById((highlightedElement-1).toString()).style.backgroundColor='transparent'
+                document.getElementById((highlightedElement-1).toString()).style.backgroundColor='white'
             }
         }
 
@@ -41,9 +41,9 @@ const Branches = () => {
         }
         if(!firstClick){
             if(highlightedElement==4){
-                document.getElementById('0').style.backgroundColor='transparent'
+                document.getElementById('0').style.backgroundColor='white'
             }else{
-            document.getElementById((highlightedElement+1).toString()).style.backgroundColor='transparent'
+            document.getElementById((highlightedElement+1).toString()).style.backgroundColor='white'
             }
         }
         document.getElementById(highlightedElement.toString()).style.backgroundColor='limegreen'
