@@ -1,0 +1,45 @@
+#branches {
+    height: 100vh;
+}
+#lead-image{
+    border: 1px solid black;
+    height: 50%;
+    width: 100%
+}
+
+#page-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    border: 1px solid black;
+    height: 50%;
+}
+
+#branch-title{
+    font-style: italic;
+    font-size: 2.5em;
+}
+
+#branches img:nth-of-type(2){
+    width: 66.66vh;
+    visibility: hidden;
+}
+
+#locations {
+    color: green;
+    
+}
+
+#locations li {
+    border-top: 1px solid limegreen;
+    color: black;
+    list-style: none;
+    font-size: 1.5em;
+    height: 2em;
+    align-content: center;
+}
+
+#locations li:last-of-type {
+    border-bottom: 1px solid limegreen;
+}
