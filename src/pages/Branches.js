@@ -20,7 +20,7 @@ const Branches = () => {
         }
 
         if(!firstClick){
-            if (highlightedElement == 0){
+            if (highlightedElement === 0){
                 document.getElementById('4').style.backgroundColor='white'
             } else {
                 document.getElementById((highlightedElement-1).toString()).style.backgroundColor='white'
@@ -39,7 +39,7 @@ const Branches = () => {
             highlightedElement = 4;
         }
         if(!firstClick){
-            if(highlightedElement==4){
+            if(highlightedElement === 4){
                 document.getElementById('0').style.backgroundColor='white'
             }else{
             document.getElementById((highlightedElement+1).toString()).style.backgroundColor='white'
