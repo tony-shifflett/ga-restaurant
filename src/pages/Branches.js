@@ -2,6 +2,7 @@ import React from 'react'
 import '../styles/branches.css'
 import avocadoToast from '../assets/images/unsplash_fdlZBWIP0aM.jpg'
 import veggiePlate from '../assets/images/unsplash_IGfIGP5ONV0.jpg'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleUp } from '@fortawesome/free-solid-svg-icons'
 import {faAngleDown} from '@fortawesome/free-solid-svg-icons'
 
