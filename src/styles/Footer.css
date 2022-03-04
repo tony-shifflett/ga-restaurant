@@ -19,6 +19,11 @@
     padding-left: 5%;
 }
 
-#social-media {
+#social-media{
     padding-right: 5%;
+    font-size: 1.5em;
+}
+
+#social-media *{
+    padding-right: 20px;
 }

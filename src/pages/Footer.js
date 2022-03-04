@@ -1,8 +1,7 @@
 import React from 'react'
 import '../styles/Footer.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { FaFacebookSqu } from '@fortawesome/free-solid-svg-icons'
-
+import {FaFacebookSquare, FaTwitterSquare, FaBehance, FaPinterestSquare, FaLinkedin} from 'react-icons/fa'
 const Footer = () => {
   return (
     <footer id='footer'>
@@ -10,8 +9,11 @@ const Footer = () => {
           2022 Copyrights. All rights reserved.
         </div>
         <div id='social-media'>
-          {/* placeholder text */}
-          Social Media Icons
+          <FaFacebookSquare/>
+          <FaTwitterSquare/>
+          <FaBehance/>
+          <FaPinterestSquare/>
+          <FaLinkedin/>
         </div>
     </footer>
   )
