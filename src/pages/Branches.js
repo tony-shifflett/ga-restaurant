@@ -5,7 +5,6 @@ import veggiePlate from '../assets/images/unsplash_IGfIGP5ONV0.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleUp } from '@fortawesome/free-solid-svg-icons'
 import {faAngleDown} from '@fortawesome/free-solid-svg-icons'
-import { click } from '@testing-library/user-event/dist/click'
 
 const Branches = () => {
 
